@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+body {
+  
+    background-color: #ffa200!important;
+background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+  margin: 10px 0; }
+
+#preview,
+.title {
+  display: inline-block; 
+color: #2f2d1d;}
+
+.colorScheme, .editorWrap textarea, .previewWrap {
+  background-color: #d6c79b;
+  border: 1px solid #2f2d1d;
+  box-shadow: 1px 1px 10px 2px #5d5f3a;
+  border-top: none; }
+
+.toolbar {
+  position: relative;
+  background-color: #a39a4a;
+  padding: 4px 4px 3px 3px;
+  border: 1px solid #2f2d1d;
+  box-shadow: 1px 1px 10px 2px #5f5e3a;
+  font-family: Russo One;
+  font-size: 15px; }
+  .toolbar i {
+    width: 25px;
+    color: black;
+    margin-left: 5px; }
+  .toolbar .fa-arrows-alt,
+  .toolbar .fa-compress {
+    position: absolute;
+    right: -5px; }
+
+.fa-retweet:hover,
+.fa-compress:hover,
+.fa-arrows-alt:hover {
+  color: #d9e257;
+  cursor: pointer; }
+
+
+.editorWrap {
+  width: 600px;
+  margin: 18px auto; }
+  .editorWrap .toolbar {
+    width: 99%; }
+  .editorWrap textarea {
+    width: 99%;
+    min-height: 200px;
+    margin-bottom: -5px;
+    resize: vertical;
+    outline: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 12px; }
+
+.converter {
+  width: 100px;
+  text-align: center;
+  font-size: 35px;
+  margin: auto; }
+
+.previewWrap {
+  width: 800px;
+  margin: 20px auto;
+  min-height: 200px;
+  overflow-wrap: break-word;
+  }
+  .previewWrap .toolbar {
+    left: -1px;
+    width: 100%;
+    padding-right: 17px; }
+  .previewWrap #preview {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 99%; }
+
+@media screen and (max-width: 850px) {
+  .previewWrap {
+    width: 630px; }
+  .editorWrap {
+    width: 550px; } }
+
+.maximized {
+  width: 96%;
+  min-height: 100vh;
+  margin: auto; }
+  .maximized textarea {
+    min-height: 95vh;
+    resize: none; }
+
+.hide {
+  display: none; }
+
+@media screen and (max-width: 650px) {
+  body {
+    margin: 5px 0; }
+  .editorWrap {
+    width: 80vw;
+    margin: 0 auto; }
+  .maximized {
+    width: 95%;
+    margin: auto; }
+  .previewWrap {
+    width: 95vw; }
+    .previewWrap #preview {
+      width: 98%; }
+      .previewWrap #preview img {
+        height: 200px; } }
+
+#preview blockquote {
+  border-left: 3px solid #434b22;
+  color: #484b22;
+  padding-left: 5px;
+  margin-left: 25px; }
+
+#preview code {
+  background: rgb(46, 35, 0);
+  padding: 1px 4px 2px 4px;
+  font-size: 12px;
+  font-weight: bold;
+color: rgb(255, 253, 253); }
+
+#preview pre {
+  background: rgb(46, 35, 0);
+}
+
+#preview h1 {
+  border-bottom: 2px solid #474b22;
+ }
+
+#preview h2 {
+  border-bottom: 1px solid #4a4b22; }
+
+#preview table {
+  border-collapse: collapse;
+  background-color: #a9ac7c; }
+
+#preview td,
+#preview th {
+  border: 2px solid #4b4822;
+  padding-left: 5px;
+  padding-right: 5px; 
+ 
+}
+#preview th {
+  background-color: #5a5825;
+}
